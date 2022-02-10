@@ -1,0 +1,16 @@
+[Adblock Plus 2.0]
+! Title: abp-mobile-annoyance
+! Version: 202202111
+! Expires: 1 days
+! Homepage: https://github.com/AirBashX/ADRules
+! Licence: GPL3.0
+
+!CSDN:弹出窗口
+blog.csdn.net##.weixin-shadowbox
+!CSDN:下载App按钮
+blog.csdn.net##.feed-Sign-span  
+
+!简书:弹出窗口
+jianshu.com##.download-app-guidance
+!简书:下载App按钮
+jianshu.com##.call-app-btn
