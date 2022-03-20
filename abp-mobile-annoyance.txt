@@ -28,8 +28,7 @@ csdn.net##.feed-Sign-span
 !PC端:学生认证
 csdn.net###csdn-highschool-window
 
-!掘金
-!APP内打开
+!掘金:APP内打开
 juejin.cn##.open-button
 
 !简书
@@ -80,3 +79,6 @@ bilibili.com##.h5-download-bar
 
 !丁香园:APP内打开
 3g.dxy.cn##.wrap
+
+!微博:APP内打开
+m.weibo.cn/status##.app-btn-box
