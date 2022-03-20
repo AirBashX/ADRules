@@ -1,16 +1,72 @@
 [Adblock Plus 2.0]
 ! Title: abp-mobile-annoyance
-! Version: 202202111
+! Version: 202203201
 ! Expires: 1 days
-! Homepage: https://github.com/AirBashX/ADRules
+! Homepage: https:!github.com/AirBashX/ADRules
 ! Licence: GPL3.0
 
-!CSDN:弹出窗口
-blog.csdn.net##.weixin-shadowbox
-!CSDN:下载App按钮
-blog.csdn.net##.feed-Sign-span  
+!百度搜索
+!搜索结果:小程序
+baidu.com##[srcid="xcx_multi"]
+!搜索结果:百度手机助手
+baidu.com##[srcid="app_mobile_simple"]
+!搜索结果:百度手机助手:安全下载
+baidu.com##[srcid="app_mobile_simple_safety"]
+!下载弹窗(新闻)
+baidu.com##.layer-wrap
+!xxx独家语音(新闻)
+baidu.com##.undefined
 
-!简书:弹出窗口
-jianshu.com##.download-app-guidance
-!简书:下载App按钮
+!腾讯新闻:返回首页
+xw.qq.com##.go-home
+
+!CSDN
+!下载弹窗
+csdn.net##.weixin-shadowbox
+!APP内打开+登录/打开注册(主页)
+csdn.net##.feed-Sign-span
+!PC端:学生认证
+csdn.net###csdn-highschool-window
+
+!简书
+!打开APP,查看更多相似好文
 jianshu.com##.call-app-btn
+!打开App,看更多好文(首页)
+jianshu.com##.index_call-app-btn
+
+!腾讯视频
+!下载弹窗
+m.v.qq.com##.at-app-banner
+!打开APP查看高清内容
+m.v.qq.com##.open_app_bottom
+
+!优酷视频
+!下载弹窗
+youku.com##.callEnd_box
+!打开优酷APP更流畅
+youku.com##.callEnd_fixed_box
+!红包
+youku.com##.Corner-container
+
+!爱奇艺
+!下载弹窗
+iqiyi.com##.m-iqyGuide-layer
+!打开爱奇艺APP,看精彩视频
+iqiyi.com##.__web-inspector-hide-shortcut__
+!PC端:登录提示上侧
+iqiyi.com##.pl__1
+
+!好看视频:打开好看app
+haokan.baidu.com##.open-app-button
+
+!哔哩哔哩
+!打开app,看你感兴趣的内容(首页)
+m.bilibili.com##.m-home-float-openapp
+!bilibili内打开
+m.bilibili.com##.m-float-openapp
+
+!B站文章:立即体验
+bilibili.com##.h5-download-bar
+
+!丁香园:APP内打开
+3g.dxy.cn##.wrap
