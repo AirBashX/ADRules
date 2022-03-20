@@ -28,11 +28,21 @@ csdn.net##.feed-Sign-span
 !PC端:学生认证
 csdn.net###csdn-highschool-window
 
+!掘金
+!APP内打开
+juejin.cn##.open-button
+
 !简书
 !打开APP,查看更多相似好文
 jianshu.com##.call-app-btn
 !打开App,看更多好文(首页)
 jianshu.com##.index_call-app-btn
+
+!知乎:App内打开
+www.zhihu.com##.OpenInAppButton
+
+!百度贴吧:打开百度贴吧
+tieba.baidu.com##.nav-bar-bottom
 
 !腾讯视频
 !下载弹窗
@@ -52,7 +62,7 @@ youku.com##.Corner-container
 !下载弹窗
 iqiyi.com##.m-iqyGuide-layer
 !打开爱奇艺APP,看精彩视频
-iqiyi.com##.__web-inspector-hide-shortcut__
+iqiyi.com##[class^="ChannelHomeBanner"]
 !PC端:登录提示上侧
 iqiyi.com##.pl__1
 
