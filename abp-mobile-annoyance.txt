@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: abp-mobile-annoyance
-! Version: 202203201
+! Version: 202203261
 ! Expires: 1 days
 ! Homepage: https:!github.com/AirBashX/ADRules
 ! Licence: GPL3.0
@@ -82,3 +82,15 @@ bilibili.com##.h5-download-bar
 
 !微博:APP内打开
 m.weibo.cn/status##.app-btn-box
+
+!西瓜视频:
+!PC端:登录提示
+ixigua.com##.loginBenefitNotification
+!打开西瓜视频,看全网超清视频
+ixigua.com##.xigua-download
+
+!抖音电脑版:
+!PC端:右上角登录提示
+www.douyin.com##.login-guide-container
+!PC端:登陆后查看评论
+www.douyin.com##.recommend-comment-login
