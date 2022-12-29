@@ -1,144 +1,156 @@
 [Adblock Plus 2.0]
 ! Title: abp-mobile-annoyance
-! Version: 202204241
+! Version: 202212301
 ! Expires: 1 days
 ! Homepage: https:!github.com/AirBashX/ADRules
 ! Licence: GPL3.0
 
-!百度搜索
-!搜索结果:小程序
-baidu.com##[srcid="xcx_multi"]
-!搜索结果:百度手机助手
-baidu.com##[srcid="app_mobile_simple"]
-!搜索结果:百度手机助手:安全下载
-baidu.com##[srcid="app_mobile_simple_safety"]
-!下载弹窗(新闻)
-baidu.com##.layer-wrap
-!xxx独家语音(新闻)
-baidu.com##.undefined
-
-!腾讯新闻:返回首页
-xw.qq.com##.go-home
-
-!CSDN
-!下载弹窗
 csdn.net##.weixin-shadowbox
-!APP内打开+登录/打开注册(主页)
 csdn.net##.feed-Sign-span
-!PC端:学生认证
+csdn.net##.passport-login-container
 csdn.net###csdn-highschool-window
+csdn.net###csdn-toolbar-profile-nologin
 
-!掘金:APP内打开
-juejin.cn##.open-button
-
-!简书
-!打开APP,查看更多相似好文
+jianshu.com##.download-app-guidance
 jianshu.com##.call-app-btn
-!打开App,看更多好文(首页)
 jianshu.com##.index_call-app-btn
 
-!知乎:App内打开
-www.zhihu.com##.OpenInAppButton
+juejin.cn##.open-button
+!juejin.cn##.byte-drawer
+juejin.cn##.recommend-box
 
-!百度贴吧:打开百度贴吧
+m.zhihu.com##.OpenInAppButton
+
 tieba.baidu.com##.nav-bar-bottom
 
-!腾讯视频
-!下载弹窗
+/wk.baidu.com/view/##.wk-student-defense
+
+tanbi.baidu.com/h5apptopic/browse/##.wk-student-limit-jump
+tanbi.baidu.com/h5apptopic/browse/##.bartop
+tanbi.baidu.com/h5apptopic/browse/##.wk-bottom-btn
+
+baijiahao.baidu.com/s##.layer-wrap
+baijiahao.baidu.com/s##.undefined
+
+m.baidu.com/sf_baijiahao##.undefined
+
+mbd.baidu.com/newspage/data##.drag-bottom
+
+view.inews.qq.com##[class^=downloader-floating-bar_floatingRight__]
+view.inews.qq.com##[class^=video-bottom-bar_newsOpen__]
+
 m.v.qq.com##.at-app-banner
-!打开APP查看高清内容
 m.v.qq.com##.open_app_bottom
 
-!优酷视频
-!下载弹窗
 youku.com##.callEnd_box
-!打开优酷APP更流畅
 youku.com##.callEnd_fixed_box
-!红包
+youku.com##.undefined
 youku.com##.Corner-container
 
-!爱奇艺
-!下载弹窗
 iqiyi.com##.m-iqyGuide-layer
-!打开爱奇艺APP,看精彩视频
 iqiyi.com##[class^="ChannelHomeBanner"]
-!PC端:登录提示上侧
 iqiyi.com##.pl__1
 
-!好看视频:打开好看app
 haokan.baidu.com##.open-app-button
+haokan.baidu.com##.top-video-card-img-app
+haokan.baidu.com##.video-player-download-tips
+haokan.baidu.com##.open-app-bottom
+haokan.baidu.com##.player-lefttip-inner
+haokan.baidu.com###passport-login-pop
+haokan.baidu.com##.pop-mask
 
-!哔哩哔哩
-!打开app,看你感兴趣的内容(首页)
-m.bilibili.com##.m-home-float-openapp
-!bilibili内打开
-m.bilibili.com##.m-float-openapp
+baidu.com##[srcid="xcx_multi"]
+baidu.com##[srcid="app_mobile_simple"]
+baidu.com##[srcid="app_mobile_simple_safety"]
+baidu.com##.layer-wrap
+baidu.com##.undefined
 
-!B站文章:立即体验
-bilibili.com##.h5-download-bar
+bilibili.com##.m-home-float-openapp
+bilibili.com##.m-float-openapp
+bilibili.com##.openapp-dialog
+bilibili.com##.mplayer-widescreen-callapp
+bilibili.com##.lt-row
+bilibili.com##.login-panel-popover:has(.login-tip-content)
+bilibili.com##.bilibili-player-video-toast-bottom
+bilibili.com##.float-btn
+bilibili.com##div:has(.unlogin-popover-avatar)
 
-!丁香园:APP内打开
+3g.dxy.cn##[class^=fixedBtn]
 3g.dxy.cn##.wrap
 
-!微博:APP内打开
-m.weibo.cn/status##.app-btn-box
+m.weibo.cn##.app-btn-box
+m.weibo.cn##.login-btn
+m.weibo.cn##.wrap
 
-!西瓜视频:
-!PC端:登录提示
+sina.cn##.callApp_fl_btn
+
+finance.sina.cn##.m-sentiment-blk
+
+cj.sina.cn/article##.m-guss-caijing
+cj.sina.cn/article##.broadcast
+cj.sina.cn/article###norm_qrcode_link_auto
+
+ixigua.com##.landing_guide
 ixigua.com##.loginBenefitNotification
-!打开西瓜视频,看全网超清视频
 ixigua.com##.xigua-download
 
-!抖音电脑版:
-!PC端:右上角登录提示
 www.douyin.com##.login-guide-container
-!PC端:登陆后查看评论
 www.douyin.com##.recommend-comment-login
+www.douyin.com##.login-mask-enter-done
 
-!电子发烧友
-!悬浮按钮:主页右侧
 m.elecfans.com##.hm_quick
-!悬浮按钮:登陆/注册
 m.elecfans.com##.login-reg-fixed
-!悬浮按钮:上方打开app
 m.elecfans.com##.open_app
 
-!新京报
-!悬浮按钮:立即打开(顶部)
+app.people.cn##.app-bot-wrap
+
 m.bjnews.com.cn##.xjb-top
 
-!观察者网
-!固定按钮:点击下载(顶部)
 guancha.cn##.g_header44
-!悬浮按钮:APP专享(底部)
 guancha.cn##.g_swiper_container
 
-!澎湃新闻
-!悬浮按钮:新闻滚条(底部)
-m.thepaper.cn##.footer_banner
+m.thepaper.cn/newsDetail_forward##[class^=index_footer_banner]
+m.thepaper.cn/newsDetail_forward##[.index_footer_banner__Mcr_R]
 
-!凤凰新闻
-!固定按钮:立即打开(顶部)
 ifeng.com##[class^=header-]
-!固定按钮:今天这条消息99%的人都不知道
 ifeng.com##[class^=headerIn-]
-!悬浮按钮:打开(底部)
 ifeng.com##[class^=fixBottom-]
-!悬浮按钮:立即打开(主页)
 ifeng.com##[class^=fixSlide-]
+ifeng.com##[class^=fixBottom-]
 
-!网易新闻
-!固定按钮:打开(底部)
-3g.163.com##.widget-slider
+3g.163.com##.backflow-floating
 
-!虎嗅网
-!悬浮按钮:go!(主页)
 m.huxiu.com##.guide-wrap
-!悬浮按钮:打开(顶部)
 m.huxiu.com##.js-top-fixed
 
-!虎扑网
-!悬浮按钮:App内打开
-m.hupu.com##.open-app-suspension
-!悬浮按钮:刷新+内侧+虎扑(右侧)
-m.hupu.com##.totopbtn-wrap
+m.hupu.com##.open-hupu
+
+m.douban.com/movie/subject##.subject-banner
+
+g.pconline.com.cn##.btnForAppOpenImg
+g.pconline.com.cn##.btnForAppOpenA
+g.pconline.com.cn##.WakeUptop
+
+m.zol.com.cn##.cover-back_s
+m.zol.com.cn###bottom-fixed-wrapper > span
+
+wap.zol.com.cn##.cover-back_s
+wap.zol.com.cn###bottom-fixed-wrapper > span
+
+www.autohome.com.cn###loginGuide
+
+www.taptap.cn##.open-app-button
+www.taptap.cn##.show-add-to-screen
+www.taptap.cn##.add-to-screen-wrap
+
+m.ithome.com##.open-app-banner
+
+www.360doc.com/content/##iframe
+www.360doc.com/content/##iframe~div
+
+www.oschina.net##.app-download-banner-box
+
+m.36kr.com/p/##.article-top-swiper-goapp
+
+
+www.xiaohongshu.com##.cube-z-bottom-bar
